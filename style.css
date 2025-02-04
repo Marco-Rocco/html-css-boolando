@@ -1,10 +1,12 @@
-* {
+body {
+    margin: 0px;
     font-family: sans-serif;
 }
 
 /* header */
 
 header {
+    position: sticky;
     background-color: #ff6900;
 }
 
@@ -15,7 +17,6 @@ nav{
     margin: auto;
     padding: 10px;
     align-items: center;
-
 }
 
 #logo { 
@@ -36,5 +37,27 @@ nav > :nth-child(3){
 
 }
 
-header div { 
+/* main */
+
+main {
+    width: 80%;
+    margin: auto; 
+    margin-top: 60px;  
+    background-color: indianred;
 }
+
+.container.shop {
+    display: flex;
+    width: 100%;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    width: 350px;
+}
+
+
+/* debug */
+
