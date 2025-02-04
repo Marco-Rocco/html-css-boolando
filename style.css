@@ -2,6 +2,8 @@
     font-family: sans-serif;
 }
 
+/* header */
+
 header {
     background-color: #ff6900;
 }
@@ -11,10 +13,28 @@ nav{
     justify-content: space-between;
     width: 80%;
     margin: auto;
+    padding: 10px;
+    align-items: center;
 
 }
 
 #logo { 
     width: 150px;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+nav > :nth-child(3){
+    padding: 0px 0px 0px 100px;
+
+}
+
+header div { 
 }
