@@ -9,6 +9,7 @@ header {
     position: sticky;
     top: 0px;
     background-color: #ff6900;
+    z-index: 1;
 }
 
 nav{
@@ -100,9 +101,17 @@ img {
     color: red;
 }
 
-img:hover {
+.item.I > img:hover {
     content: url(images/img/1b.webp);
 }
 
+.price { 
+    color: red;
+}
+
+.old.price {
+    color: black;
+    text-decoration: line-through;
+}
 /* debug */
 
