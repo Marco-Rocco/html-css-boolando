@@ -45,6 +45,8 @@ main {
     width: 77%;
     margin: auto; 
     margin-top: 60px;  
+    margin-bottom: 60px;  
+
 }
 
 .container.shop {
@@ -131,6 +133,24 @@ img {
 .old.price {
     color: black;
     text-decoration: line-through;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+}
+
+.foot{
+    width: 77%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px;
+}
+
+.foot * {
+    color: white;
+    margin: 5px 10px 5px 0px;
 }
 /* debug */
 
