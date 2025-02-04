@@ -105,6 +105,14 @@ img {
     content: url(images/img/1b.webp);
 }
 
+.item.II > img:hover {
+    content: url(images/img/2b.webp);
+}
+
+.item.III > img:hover {
+    content: url(images/img/3b.webp);
+}
+
 .price { 
     color: red;
 }
