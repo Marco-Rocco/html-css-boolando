@@ -146,11 +146,16 @@ footer {
     margin: auto;
     display: flex;
     padding: 50px 0px;
+    justify-content: space-between;
 }
 
 .foot * {
     color: white;
     margin: 5px 10px 5px 0px;
+}
+
+.social {
+    text-align: end;
 }
 /* debug */
 
