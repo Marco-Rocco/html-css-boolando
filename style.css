@@ -45,7 +45,6 @@ main {
     width: 77%;
     margin: auto; 
     margin-top: 60px;  
-    background-color: indianred;
 }
 
 .container.shop {
@@ -111,6 +110,18 @@ img {
 
 .item.III > img:hover {
     content: url(images/img/3b.webp);
+}
+
+.item.IV > img:hover {
+    content: url(images/img/4b.webp);
+}
+
+.item.V > img:hover {
+    content: url(images/img/5b.webp);
+}
+
+.item.VI > img:hover {
+    content: url(images/img/6b.webp);
 }
 
 .price { 
