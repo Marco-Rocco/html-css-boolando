@@ -96,5 +96,13 @@ img {
     font-size: 25px;
 }
 
+.favorite:hover {
+    color: red;
+}
+
+img:hover {
+    content: url(images/img/1b.webp);
+}
+
 /* debug */
 
